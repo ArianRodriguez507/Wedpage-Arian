@@ -6,7 +6,7 @@
     --clr-water:      #5d535b;   /* Blue — cool contrast            */ 
 
     /* Backgrounds */   
-    --clr-bg:         #e77fcd;   /* Very dark — page background     */   
+    --clr-bg:         #c6a9bfdf;   /* Very dark — page background     */   
     --clr-surface:    #e8c3d8;   /* Slightly lighter — card surface */   
     --clr-surface-2:  #eb91d3;   /* Even lighter — hover states     */ 
 
@@ -22,7 +22,7 @@
     /* Spacing & shape */   
     --radius-sm:  6px;   
     --radius-md:  12px;  
-    --radius-lg:  20px; 
+    --radius-lg:  15px; 
  
     /* Transitions */  
     --transition: 0.25s ease;  
@@ -47,7 +47,8 @@ body {
      color: var(--clr-text);     
      line-height: 1.7;     
      font-size: 16px;   
-     background-image: url("/nanami.jpg.jpg"); 
+     background-image: url("/nanami.jpg.jpg");
+     
       
     } 
   
@@ -213,7 +214,7 @@ transition: width var(--transition);
   } 
     
   .hero-quote {   
-    font-size: 17px;   
+    font-size: 15px;   
     font-style: italic;   
     color: var(--clr-muted);   
     max-width: 540px;  
